@@ -8,8 +8,6 @@
 # Copyright:   (c) chenw_000 2020
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-print(3+2)
-print(5-1)
 number = eval(input("Enter a non-negative integer to take the factorial of: "))
 product = 1
 for i in range(number):
