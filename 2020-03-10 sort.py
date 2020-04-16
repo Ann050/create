@@ -14,9 +14,10 @@ def insersion_sort(list):
         value = list[index]
         i = index -1
         while i >= 0:
-            if list[index] < list[i]:
+            if value < list[i]:
                 list[i+1] = list[i]
                 list[i] = value
+                i = i - 1
             else:
                 break
 
